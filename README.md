@@ -35,7 +35,7 @@ BERTscore takes it's time for computation due to creating contextual word embedd
 ### Error handling
 
 There is no proper error handling. Therefore, the app may crash if there are incorrect inputs, which is not indicated in the web app. Therefore, attention should be paid to the console output. As a rule of thumb:
-- The calculation time **without** BERTscore should take a maximum of 30 sec.
+- The calculation time **without** BERTscore should take at maximum 30 seconds
 - The calculation time **with** BERTscore takes about 2 minutes
 
 ## Examples
@@ -51,8 +51,8 @@ The examples illustrate the benefits and drawbacks of BLEU. They can be found in
     3. Similar semantic meaning of the sentence, but what about the score?
 - Abbreviations:
     1. Set parameters:
-        - Reference: ```Abb``` $\Rightarrow$ Example metrics to evaluate machine translations are the WER and the BLEU metric.
-        - Candidate: ```Abb``` $\Rightarrow$ Example metrics to evaluate machine translations are the Word Error Rate and the Bilingual Evaluation Understudy metric.
+        - Reference: ```Abb``` $\Rightarrow$ Example metrics to evaluate machine translations are the **WER** and the **BLEU** metric.
+        - Candidate: ```Abb``` $\Rightarrow$ Example metrics to evaluate machine translations are the **Word Error Rate** and the **Bilingual Evaluation Understudy** metric.
         - Use the common weights
     2. Calculate the score
     3. Sentences have exactly the same semantics, and the score?
